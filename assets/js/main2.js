@@ -8,7 +8,7 @@ drop.style.position = "absolute";
 
 const playBtn = document.querySelector('#playBtn');
 playBtn.addEventListener('click', rain, false);
-
+// je crée une animation en déplaçant l'image de la goutte du haut vers le bas
 let yPos = 0;
 let xPos = 0;
 
