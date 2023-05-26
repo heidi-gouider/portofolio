@@ -1,0 +1,226 @@
+/* Dans ce fichier, je vais définir les propriétés graphiques de mes balises.
+pour cela, j'utilise des sélecteurs, pour chaqun d'entre eux je leur donnerais des instructions*/
+
+/* html,
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    font-size: 100%;
+} */
+
+/* @font-face {
+    font-family: "Ubuntu Light";
+    src: url("assets/fonts/Ubuntu-Light.ttf") format(ttf);
+}  */
+
+* {
+    margin: 0px;
+    padding: 0px;
+    /* user-select: none; */
+
+}
+
+/* body {
+	height: 100%;
+	padding: 0;
+	font-size: 16px;
+	line-height: 0.5;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+} */
+
+
+/************ le header***********/
+
+header {
+    width: 100%;
+    height: 8rem;
+    /* position: fixed; */
+    z-index: 2;
+    background-image: url(img/backgroung-h&f.jpg);
+    background-repeat: no-repeat;
+    /* position: absolute; */
+}
+
+.entete_mask {
+    width: 100%;
+    /* height: 3rem; */
+    height: auto;
+    position: fixed;
+    bottom: 0;
+    z-index: 10;
+    /* position: absolute; */
+    /* background: 0 0; */
+
+}
+
+.entete_mask svg {
+    width: 100%;
+    /* height: 3rem; */
+    /* width: 100%;
+	height: 100%; */
+    fill-opacity: 0.5;
+    /* position: fixed; */
+}
+
+
+.logo {
+    margin: 0 10px;
+    width: 5rem;
+    height: 8rem;
+    line-height: 8rem;
+}
+
+/* logo img {
+	height: 8rem;
+
+} */
+
+.logo img {
+    width: 3rem;
+    height: 4rem;
+    /* top: 0; */
+    /* z-index: 2; */
+}
+
+/* .logo img a:hover {
+	color: red;
+} */
+
+/************ le nav ***************/
+
+.nav_bar {
+    /* margin: 0 10px; */
+    width: 100%;
+    height: 5rem;
+    line-height: 5rem;
+    color: black;
+    text-align: center;
+    /* display: flex; */
+    /* justify-content: space-between; */
+    /* flex-direction: row;
+	align-items: center; */
+}
+
+.liens a {
+    padding: 2rem;
+    /* height: 40px; */
+}
+
+.liens a:hover {
+    color: red;
+}
+
+
+/************* PAGE CONTACT ********** */
+
+.container {
+    /* display: flex;
+    place-content: center;
+    flex-direction: column; */
+    margin: 5%;
+    /* background-color: #C6D8D3; */
+}
+
+h1 {
+    margin-left: 10%;
+}
+
+fieldset {
+    width: 60%;
+    /* background-color: #C6D8D3; */
+    align-items: center;
+}
+
+/* label {
+    display: inline-block;
+    min-width: 200px;
+} */
+
+/* #formulaire{
+    /* j'utilise une valeur de type inside pour organiser le contenu du formulaire */
+/* display: table;
+} */
+
+.champ,
+.champ_obligatoire {
+    margin-bottom: 2%;
+}
+
+small {
+    color: red;
+    text-align: end;
+}
+
+input {
+    border-radius: 5%;
+    cursor: pointer;
+    margin-left: 2%;
+    display: inline-block;
+    min-width: 200px;
+
+}
+
+.select {
+    margin-bottom: 15px;
+
+
+}
+
+.bouton {
+    margin-top: 20px;
+    /* margin-bottom: 20px; */
+}
+
+/*********** responsive **************/
+/* Je vais utiliser la valeur screen qui correspond aux écrans */
+/*pour tous les écrans de taille inférieur à 768px*/
+
+/* @media screen and (max-width: 768px) { */
+/* header{
+        width: 80%; 
+        display: flex;
+        display: inline-block;
+    } */
+
+/* #img-logo {
+        width: 50%;
+    }
+
+    #text-logo { */
+/* position: absolute; */
+/* flex: none; */
+/* font-size: 80%;
+        padding-top: 10%;
+        padding-left: 10%;
+        margin: 0;
+    }
+
+    nav {
+        padding: 0;
+    } */
+
+
+
+
+/*************PAGE CONTACT ****************/
+
+/* .container{
+        height: auto;
+    } */
+#formulaire {
+    padding: 2%;
+}
+
+/* } */
+
+@media screen and (max-width: 576px) {
+    nav li {
+        display: flex;
+        flex-flow: column wrap;
+        font-size: small;
+    }
+
+}

@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Me contacter</title>
+  <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous"> -->
+  <link rel="stylesheet" type="text/css" href="assets/style.css">
+</head>
+
+<body>
+  <header>
+    <div class="entete_mask">
+      <!-- <svg viewBox="0 0 100 100" preserveAspectRatio="none">
+				<path d="M0 100 L 0 0 C 25 100 75 100 100 0 L 100 100"></path>
+			</svg> -->
+    </div>
+    <div class="logo">
+      <!-- <a href="#"> -->
+      <img src="assets\img\logo.svg" alt="logo">
+      <!-- </a> -->
+    </div>
+  </header>
+
+
+  <!-- ----MENU----- -->
+
+  <div class="nav_bar">
+    <nav class="liens">
+      <a href="index.html">Accueil</a>
+      <a href="#">Présentation</a>
+      <a href="#">Projets</a>
+      <a href="#">Contact</a>
+      <a href="#">Mon CV</a>
+
+    </nav>
+
+    <!-- menu hamburger si la taille de l'écran est réduite -->
+    <!-- <div class="hamburger">
+			<div class="line"></div>
+			<div class="line"></div>
+			<div class="line"></div>
+		</div> -->
+  </div>
+
+  <!-- ----FORMULAIRE DE CONTACT---- -->
+
+  <h1>Contact</h1>
+  <!-- je crée un formulaire.  -->
+
+  <form action="" method="post" name="contact" id="contact">
+    <!-- http://bienvu.net/script.php -->
+    <div class="container">
+      <div class="champ_obligatoire">
+        <div class="champ">
+          <input type="text" name="nom" placeholder="Nom" required="required" maxlength="20">
+          <small id="nomMiss"></small><br>
+        </div>
+      </div>
+
+      <div class="champ">
+        <input type="email" name="email" placeholder="Email" required="required">
+        <small id="validEmail"></small>
+      </div>
+
+      <select name="sujet" id="select sujet">
+        <option value="">Veuillez sélectionner un sujet</option>
+        <option value="commandes">projets co</option>
+        <option value="produit">Question sur un projet</option>
+        <option value="réclamation">entretient</option>
+        <option value="Autres">Autres</option>
+      </select><br>
+      <div class="champ">
+        <textarea name="message" placeholder="Votre message"></textarea>
+      </div>
+
+      <div class="bouton">
+        <input type="submit" name="valider" value="Me contacter">
+      </div>
+    </div>
+  </form>
+  <h1 id="succesEnvoie"></h1>
+  <footer class="footer">
+    <div class="footer_lien">
+      <nav class="liens">
+        <a href="#">Simplon</a>
+        <a href="#">Github</a>
+        <a href="#">Linkedin</a>
+      </nav>
+      <a href="#" class="bouton">haut de page</a>
+    </div>
+  </footer>
+
+  <!-- </div> -->
+  <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script> -->
+  <script src="assets\js\script.js"></script>
+</body>
+
+</html>
