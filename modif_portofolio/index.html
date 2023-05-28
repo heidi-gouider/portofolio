@@ -7,54 +7,38 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Modif Portofolio</title>
 	<link rel="stylesheet" href="assets/style.css">
+	<link rel="stylesheet" href="assets\tools\menu responsive\assets\style.css">
 </head>
 
 
 <body>
-
 	<header>
-		<div class="entete_mask">
-			<!-- <svg viewBox="0 0 100 100" preserveAspectRatio="none">
-				<path d="M0 100 L 0 0 C 25 100 75 100 100 0 L 100 100"></path>
-			</svg> -->
-		</div>
-		<div class="nav_bar">
+		<nav class="nav">
 			<div class="logo">
-				<!-- <a href="#"> -->
 				<img src="assets\img\logo.svg" alt="logo">
 			</div>
-			<!-- </a> -->
-			<!-- <div class="nav_bar"> -->
-			<nav class="liens">
-				<a href="#">Accueil</a>
-				<a href="#">Présentation</a>
-				<a href="#">Compétences</a>
-				<a href="#">Projets</a>
-				<a href="contact.html">Contact</a>
-				<a href="#">Mon CV</a>
-			</nav>
-			<!-- </div> -->
 
-		</div>
-		<!-- </header> -->
+			<div class="icone">
+				<span class="open"></span>
+				<span class="close"></span>
 
+			</div>
 
-		<!-- ----MENU----- -->
-
-		<!-- <div class="nav_bar">
-			<nav class="liens">
-				<a href="#">Accueil</a>
-				<a href="#">Présentation</a>
-				<a href="#">Compétences</a>
-				<a href="#">Projets</a>
-				<a href="contact.html">Contact</a>
-				<a href="#">Mon CV</a>
-
-			</nav>
-		</div> -->
+			<ul class="menu">
+				<li><a href="#">Accueil</a></li>
+				<li><a href="#">Présentation</a></li>
+				<li><a href="#">Compétences</a></li>
+				<li><a href="#">Projets</a></li>
+				<li><a href="contact.html">Contact</a></li>
+				<li><a href="#">Mon CV</a></li>
+			</ul>
+		</nav>
 	</header>
-
-
+	<!-- <div class="entete_mask"> -->
+	<!-- <svg viewBox="0 0 100 100" preserveAspectRatio="none">
+				<path d="M0 100 L 0 0 C 25 100 75 100 100 0 L 100 100"></path>
+			</svg> -->
+	<!-- </div> -->
 	<div class="container">
 		<div id="présentation">
 			<div class="titre">
@@ -68,9 +52,6 @@
 
 		<div class="animation">
 			<!-- je crée pls span pour séparer l'image en pls partie (je les crérais dans le fichier js par la suite) -->
-			<!-- <div class="goutte">
-				<img src="assets\img\drop.svg" alt="goutte">
-			</div> -->
 			<div class="pluie">
 				<div id="drop">
 					<span></span>
@@ -120,6 +101,7 @@
 			<a href="#" class="bouton">haut de page</a>
 		</div>
 	</footer>
+	<script src="assets\js\script.js"></script>
 	<!-- <script src="assets\js\main.js"></script> -->
 	<!-- ici svg est null et il n'y a aucune animation -->
 	<!-- <script src="assets\js\main1.js"></script> -->
