@@ -199,6 +199,8 @@ header {
 	position: relative;
 	top: 90px;
 	display: inline-block;
+	margin-inline-start: 20px;
+	margin-inline-end: 20px;
 	/* right: 30%;
 	left: 30%;
 	top: 6rem;
@@ -309,15 +311,17 @@ header {
 
 /************** BOUTONS COMMANDE ANIMATION ************/
 .commande {
-	display: flex;
+	/* display: flex; */
+	height: 20px;
+	justify-items: center;
 	align-items: center;
 }
 
-.boutons {
+/* .boutons {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-}
+} */
 
 .boutons input {
 	min-width: 50px;
@@ -336,7 +340,8 @@ header {
 	align-items: center;
 } */
 .icons {
-	display: flex;
+	/* display: inline-block; */
+	/* float: left; */
 	justify-content: space-between;
 	align-items: center;
 }
@@ -350,8 +355,8 @@ header {
 	border-top: 15px solid transparent;
 	border-bottom: 15px solid transparent;
 	background-color: transparent;
-	top: 50px;
-	left: 30px;
+	/* top: 50px;
+	left: 30px; */
 
 }
 
@@ -359,6 +364,7 @@ header {
 	width: 20px;
 	height: 20px;
 	background-color: red;
+
 }
 
 
