@@ -65,7 +65,7 @@ stopBtn.addEventListener('click', stopAnimation, false);
 // class animation {
 //     constructor (start-animation, stop_animation, parent_element){
             // this.start_animation = start_animation;
-            // this.stop_animation = start_animation;
+            // this.stop_animation = stop_animation;
             // this.parent_animation = parent_animation;
 
 //     }
