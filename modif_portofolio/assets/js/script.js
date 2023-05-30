@@ -6,7 +6,7 @@ let icone = document.querySelector(".icone");
 
 // encadré description //
 let description = document.querySelector(".description");
-let accueil_description = document.querySelector(".accueil_description");
+let p1 = document.querySelector("p1");
 
 // animation pluie //
 let pluie = document.querySelector("#drop");
@@ -30,7 +30,7 @@ pluie.addEventListener("click", function (event) {
 
 // évennement change au click/////
 
-accueil_description.addEventListener("click", function () {
+p1.addEventListener("click", function () {
     description.classList.toggle("change");
 });
 

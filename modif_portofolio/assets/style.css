@@ -5,6 +5,8 @@
 }
 
 body {
+	width: 100%;
+	height: 100%;
 	margin: 0;
 	padding: 0;
 	background-image: url(img/background-main.jpg);
@@ -47,7 +49,7 @@ header {
 	/* position: relative; */
 	position: fixed;
 	width: 100%;
-	height: 6rem;
+	height: 15%;
 	top: 0;
 	left: 0;
 	background-image: url(img/backgroung-h&f.jpg);
@@ -190,132 +192,39 @@ header {
 }
 
 
-/************  ACCUEIL ***************/
+/*//////////  ACCUEIL ////////////
+
 /* main {} */
 
 .container {
-	width: 100%;
-	/* height: 100VH; */
+	/* width: 100%; */
+	height: 600px;
+	/* margin: 5%; */
 	position: relative;
-	top: 90px;
-	display: inline-block;
-	margin-inline-start: 20px;
-	margin-inline-end: 20px;
-	/* right: 30%;
-	left: 30%;
-	top: 6rem;
-		background-image: url(img/background-main.jpg);
-	background-size: cover;
-	background-repeat: no-repeat; */
-	/* background-attachment: scroll; */
-	/* display: grid; */
-	/* display: inline-block; */
-
+	top: 116px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	/* padding: 2rem; */
 }
 
-*/
-/* .fond {
-	width: 100%;
-	height: 100vh;
-	background-color: #0B0C0A;
-} */
+/*******présentation******/
 
-/*******présentation*********** **/
-
-/* .accueil { */
-
-/* position: relative; */
-/* margin-top: 120px; */
-/* bottom: 0; */
-/* background: url(img/background-main.jpg) no-repeat;
-	background-size: 100%, 100%; */
-/* background-position-y: 120px; */
-/* z-index: 1; */
-/* } */
-
-
-.titre {
-	padding-top: 10px;
+h1 {
 	color: #0B0C0A;
 	font-weight: bold;
 	font-size: 16px;
 	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 	text-align: center;
-	left: 30%;
-	right: 30%;
+	/* margin: auto; */
 }
 
-/* je vais créer un évennement change sur la description */
-
-.accueil_description {
-	width: 350px;
-	height: 400px;
-	background-color: rgb(120, 129, 77);
-	opacity: 0.5;
-	text-align: center;
-	position: absolute;
-	left: 30%;
-	right: 30%;
-	border: #0B0C0A solid;
-	cursor: pointer;
-}
-
-.animation_description {
-	width: 350px;
-	height: 400px;
-	background-color: rgb(120, 129, 77, 1);
-	opacity: 0.5;
-	text-align: center;
-	position: absolute;
-	left: 30%;
-	right: 30%;
-	/* display: block; */
-	cursor: pointer;
-}
-
-.accueil_description p {
-	/* width: 50%;
-	height: 300px; */
-	/* background-color: rgb(51, 48, 48);*/
-	/* opacity: 9999; */
-	text-align: center;
-	/* display: inline; */
-	font-size: 100%;
-	color: black;
-}
-
-.animation_description p {
-	/* width: 50%;
-	height: 300px; */
-	/* background-color: rgb(51, 48, 48);
-	opacity: 0.5; */
-	text-align: center;
-	/* display: inline; */
-	font-size: 100%;
-	color: green;
-	/* opacity: 100%; */
-}
-
-
-.animation_description {
-	display: none;
-}
-
-.change .accueil_description {
-	display: none;
-}
-
-.change .animation_description {
-	display: flex;
-}
-
-/************** BOUTONS COMMANDE ANIMATION ************/
-.commande {
-	/* display: flex; */
-	height: 20px;
-	justify-items: center;
-	align-items: center;
-}
+/******* BOUTONS COMMANDE ANIMATION ************/
+/* .commande { */
+/* height: 50px; */
+/* margin: auto; */
+/* } */
 
 /* .boutons {
 	display: flex;
@@ -323,31 +232,23 @@ header {
 	align-items: center;
 } */
 
-.boutons input {
+/* .boutons input {
 	min-width: 50px;
-	/* width: 50px; */
 	height: 2rem;
 	border-radius: 15%;
 	color: rgb(146, 126, 126);
 	font-size: larger;
 	color: #0B0C0A;
-
-}
+} */
 
 /* #playBtn,
 #stopBtn {
 	border-radius: 10px 10px 10px 10px;
 	align-items: center;
 } */
-.icons {
-	/* display: inline-block; */
-	/* float: left; */
-	justify-content: space-between;
+/* .icons {
+	position: absolute;
 	align-items: center;
-}
-
-/* .icons button {
-	background-color: transparent;
 } */
 
 .icon_play {
@@ -355,9 +256,6 @@ header {
 	border-top: 15px solid transparent;
 	border-bottom: 15px solid transparent;
 	background-color: transparent;
-	/* top: 50px;
-	left: 30px; */
-
 }
 
 .icon_stop {
@@ -367,12 +265,69 @@ header {
 
 }
 
+/************** DESCRIPTION ************/
+
+/* je vais créer un évennement change sur la description */
+.description {
+	width: 25%;
+	padding: 20px;
+	/* margin: auto; */
+	text-align: center;
+	background-color: rgb(120, 129, 77, .15);
+	border-top-left-radius: 5%;
+}
+
+p1 {
+	width: 30%;
+	height: 100%;
+	height: 300px;
+	color: #0B0C0A;
+	align-items: center;
+	font-size: 20px;
+	text-align: center;
+	/* margin: auto; */
+	cursor: pointer;
+}
+
+p2 {
+	width: 30%;
+	height: 100%;
+	height: 300px;
+	text-align: center;
+	/* margin: auto; */
+	color: #0B0C0A;
+	font-size: 100%;
+	cursor: pointer;
+}
+
+/* .accueil_description p {
+	height: 300px;
+	color: #0B0C0A;
+	text-align: center;
+	font-size: 20px;
+}
+
+.animation_description p {
+	height: 300px;
+	text-align: center;
+	color: #0B0C0A;
+	font-size: 100%;
+} */
+
+
+p2 {
+	display: none;
+}
+
+.change p1 {
+	display: none;
+}
+
+.change p2 {
+	display: flex;
+}
 
 /* ************ ANIMATION *********** */
-.animation_description {
-	text-align: center;
-	position: relative;
-}
 
 /* ici je vais générer un aléatoir de la position de l'élémént goutte 
 et éviter les chevauchement avec mon script js
@@ -426,11 +381,13 @@ et éviter les chevauchement avec mon script js
 /* je vais créer un evenement au click pour l'animation dans mon script */
 #drop {
 	/* position: absolute; */
+	float: left;
 	background: url(img/drop.svg) no-repeat;
 	/* background-position: 0px 60px; */
 	width: 50px;
 	height: 70px;
 	cursor: pointer;
+	display: none;
 	/* animation: fall 5s; */
 }
 
@@ -515,7 +472,7 @@ input {
 
 footer {
 	width: 100%;
-	height: 5rem;
+	height: 10%;
 	position: absolute;
 	background-image: url(img/backgroung-h&f.jpg);
 	bottom: 0;
@@ -612,6 +569,18 @@ footer {
         font-size: 30px;
         color: black;
     } */
+
+	/************** DESCRIPTION ************/
+
+	.description {
+		width: 50%;
+		/* height: 300px; */
+		/* margin: auto; */
+		text-align: center;
+		background-color: rgb(120, 129, 77, .30);
+		overflow: auto;
+	}
+
 }
 
 /*  */
