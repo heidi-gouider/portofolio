@@ -19,7 +19,7 @@ a {
 /*//////////////// LE MENU /////////////////*/
 header {
     /* position: relative; */
-    background-image: url(img/backgroung-h&f.jpg);
+    background-image: url('/modif_portofolio/assets/img/backgroung-h&f.jpg');
     background-repeat: no-repeat;
 }
 
@@ -159,8 +159,7 @@ header {
 /*//////////////// SECTION /////////////////*/
 
 section {
-    background-image: url("img/background-main.jpg");
+    background-image: url('assets/img/background-main.jpg');
     background-size: cover;
     background-repeat: no-repeat;
-    background-color: black;
 }

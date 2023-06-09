@@ -54,7 +54,7 @@ header {
 	left: 0;
 	background-image: url(img/backgroung-h&f.jpg);
 	background-repeat: no-repeat;
-	z-index: 2;
+	/*z-index: 2;*/
 
 }
 
