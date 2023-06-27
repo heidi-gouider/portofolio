@@ -41,8 +41,8 @@ body {
 	max-width: 100vh;
 	background-image: url('../ASSETS/img/background-main.jpg');
 	background-attachment: fixed;
-	/* background-repeat: no-repeat; */
-	/* background-size: 100%; */
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
 /* #main {
