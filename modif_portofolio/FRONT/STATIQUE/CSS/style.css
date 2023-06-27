@@ -9,95 +9,57 @@ body {
 
 }
 
-/* a {
-		text-decoration: none;
-		color: inherit;
-	} */
-
 
 /* ////////////// LE HEADER ///////////////// */
 
-header {
+/* header {
 	height: 15%;
 	background-image: url(../ASSETS/img/backgroung-h&f.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
 
-}
-
-/* .nav {
-	width: 100%;
-	height: 100%;
-	display: flex;
-	justify-content: space-between;
-}
-
-.logo {
-	padding-left: 3rem;
-	width: 6rem;
-	height: 6rem;
-}
-
-.logo img {
-	width: 3rem;
-	height: 6rem;
-	line-height: 6rem;
-	z-index: 2;
-}
-
-.menu {
-	height: 6rem;
-	line-height: 6rem;
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-}
-
-.menu a {
-	padding: 1rem;
-	font-size: 20px;
-	color: white;
-	text-decoration: none;
-}
-
-.menu a:hover {
-	transition: all;
-	font-size: 30px;
-	color: bisque;
-
 } */
 
 
 
+/* .nav-link {
+	color: white;
+} */
 
-/*//////////  ACCUEIL ////////////
+.nav-link a:hover {
+	transition: scale(2);
+	/* font-size: 30px; */
+	color: bisque;
+}
 
-/* main {} */
+
+
+
+/*//////////  ACCUEIL ///////////*/
 
 .container {
-	/* width: 100%; */
-	height: 600px;
-	/* margin: 5%; */
-	/* position: relative; */
-	top: 116px;
-	display: flex;
-	flex-direction: column;
-	justify-content: space-between;
-	align-items: center;
+	max-width: 100vh;
 	background-image: url('../ASSETS/img/background-main.jpg');
-	/* padding: 2rem; */
+	background-attachment: fixed;
+	/* background-repeat: no-repeat; */
+	/* background-size: 100%; */
 }
+
+/* #main {
+	background-image: url('../ASSETS/img/background-main.jpg');
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+} */
 
 /*******présentation******/
 
-h1 {
+/* h1 {
 	color: #0B0C0A;
 	font-weight: bold;
 	font-size: 16px;
 	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 	text-align: center;
-	/* margin: auto; */
-}
+} */
 
 /******* BOUTONS COMMANDE ANIMATION ************/
 /* .commande { */
