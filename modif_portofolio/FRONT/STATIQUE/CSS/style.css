@@ -1,12 +1,10 @@
 body {
 	height: 100%;
 	min-height: 100vh;
-	/* background-image: url(img/background-main.jpg);
-	background-size: 100%;
-	background-repeat: no-repeat; */
-	/* background-attachment: fixed; */
-	/* background-position: 0, 90px; */
-
+	background-image: url('../ASSETS/img/background-main.jpg');
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
 
@@ -19,18 +17,18 @@ body {
 	background-repeat: no-repeat;
 
 } */
+#logo {
+	position: fixed;
+}
 
-
-
-/* .nav-link {
-	color: white;
+/* #logo:hover{
+	transform: matrix();
 } */
 
-.nav-link a:hover {
+/* .nav-link a:hover {
 	transition: scale(2);
-	/* font-size: 30px; */
 	color: bisque;
-}
+} */
 
 
 
@@ -38,11 +36,11 @@ body {
 /*//////////  ACCUEIL ///////////*/
 
 .container {
-	max-width: 100vh;
-	background-image: url('../ASSETS/img/background-main.jpg');
+	min-height: 100vh;
+	/* background-image: url('../ASSETS/img/background-main.jpg');
 	background-attachment: fixed;
 	background-repeat: no-repeat;
-	background-size: cover;
+	background-size: cover; */
 }
 
 /* #main {
@@ -87,19 +85,15 @@ body {
 	border-radius: 10px 10px 10px 10px;
 	align-items: center;
 } */
-/* .icons {
-	position: absolute;
-	align-items: center;
-} */
 
-.icon_play {
+#icon_play {
 	border-left: 20px solid green;
 	border-top: 15px solid transparent;
 	border-bottom: 15px solid transparent;
 	background-color: transparent;
 }
 
-.icon_stop {
+#icon_stop {
 	width: 20px;
 	height: 20px;
 	background-color: red;
