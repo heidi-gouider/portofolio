@@ -32,8 +32,6 @@
 //   maFonctionParente(); // Affiche 10 dans la console
 
 
-
-
 // encadré description //
 let description = document.querySelector(".description");
 let p1 = document.querySelector("p1");
@@ -45,10 +43,9 @@ let animation = document.querySelector(".container");
 // commande animation //
 let commande = document.querySelector(".commande");
 
-//////// CREATION DE CLASSES AU CLICK /////////
 
 
-// animation pluie //
+///// ANIMATION COLIBRI < GOUUTE D'EAU ET APPARITION FLEURS  ////////////
 
 // pluie.addEventListener("click", function (event) {
 //     animation.classList.toggle("tombe");
@@ -78,8 +75,7 @@ p1.addEventListener("click", function () {
 
 
 
-
-/* je vais maintenant créer un évennement animation sur le bouton play
+/* créer un évennement animation sur le bouton play
  quand l'utilisateur click sur play les goutte d'eau tombe de façon aléatoir
  puis quand l'U click sur une goutte elle se transform en oiseau
  certaines goutte font apparaitre au bas de l'image de fond une fleur
