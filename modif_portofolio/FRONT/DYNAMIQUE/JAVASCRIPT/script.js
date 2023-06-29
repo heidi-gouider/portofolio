@@ -1,4 +1,37 @@
 //////////// VARIABLES //////////
+// penser à jQuery pour cacher le texte de présentation sur page accueil   
+// afin de lancer le jeu avec un event au ckick play
+
+// $(document).ready(function(){
+//      $('#animation_description').hide();
+// ou
+//      $('p1, p2').hide();
+// });
+
+// j'ai placé mon code jQuery à l'intérieur du gestionnaire d'évennements "ready"
+// jQuery pour éviter les pbs d'exécutions du code. Je peux aussi l'écrire :
+
+// $(function(){
+//    Code jQuery  
+// });
+
+// $("#monBouton").click(function() {
+// Code exécuté lorsque le bouton est cliqué
+// });
+
+// function maFonctionParente() {
+//     var x = 10;
+
+//     var maFonctionEnfant = function() {
+//       console.log(x); // Accède à la variable x de la fonction parente
+//     };
+
+//     maFonctionEnfant(); // Appelle la fonction anonyme
+//   }
+
+//   maFonctionParente(); // Affiche 10 dans la console
+
+
 
 
 // encadré description //
