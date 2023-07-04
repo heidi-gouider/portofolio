@@ -33,15 +33,15 @@
 
 
 // encadré description //
-let description = document.querySelector(".description");
-let p1 = document.querySelector("p1");
+// let description = document.querySelector(".description");
+// let p1 = document.querySelector("p1");
 
 // animation pluie //
-let pluie = document.querySelector("#drop");
-let animation = document.querySelector(".container");
+// let pluie = document.querySelector("#drop");
+// let animation = document.querySelector(".container");
 
 // commande animation //
-let commande = document.querySelector(".commande");
+// let commande = document.querySelector(".commande");
 
 
 
@@ -79,4 +79,4 @@ p1.addEventListener("click", function () {
  quand l'utilisateur click sur play les goutte d'eau tombe de façon aléatoir
  puis quand l'U click sur une goutte elle se transform en oiseau
  certaines goutte font apparaitre au bas de l'image de fond une fleur
- au click sur la fleur l'utilisateur est redirigé vers un projet*/
+ au click sur la fleur l'utilisateur est redirigé vers un projet*/ 
