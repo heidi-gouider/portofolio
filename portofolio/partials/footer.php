@@ -11,6 +11,17 @@
 </head>
 
 <body>
+    	<!-- <footer class="footer">
+		<div class="footer_lien">
+			<nav class="liens">
+				<a href="#">Simplon</a>
+				<a href="#">Github</a>
+				<a href="#">Linkedin</a>
+			</nav>
+			<a href="#" class="bouton">haut de page</a>
+		</div>
+	</footer> -->
+
     <footer class="sticky-bottom footer">
         <div class="container">
             <div class="row justify-content-end custom-line">

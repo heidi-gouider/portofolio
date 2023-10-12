@@ -12,11 +12,13 @@
 
 <body>
 
-
-	<header class="header">
-		<div class="container">
+<?php 
+include('partials/header.php')
+?>
+	<!-- <header class="header">
+		<div class="container"> -->
 			<!-- navigation -->
-			<div class="navigation">
+			<!-- <div class="navigation">
 				<div class="navigation_mask">
 					<svg width="100%" height="100%" viewBox="0 0 100 100" preserveAspectRatio="none">
 						<path d="M0 100 L 0 0 C 25 100 75 100 100 0 L 100 100" fill-opacity="0.5"></path>
@@ -33,10 +35,10 @@
 						<a href="#">savoirs-faire</a>
 						<a href="#">projets</a>
 						<a href="#">contact</a>
-					</nav>
+					</nav> -->
 
 					<!-- menu hamburger si la taille de l'écran est réduite -->
-					<div class="hamburger">
+					<!-- <div class="hamburger">
 						<div class="line"></div>
 						<div class="line"></div>
 						<div class="line"></div>
@@ -44,7 +46,7 @@
 				</div>
 			</div>
 
-			<div class="accueil">
+			<div class="accueil"> -->
 				<!-- <div class="accueil_mask"> -->
 				<!-- je crée une courbe de Bézier quadratique -->
 				<!-- <svg width="100%" height="100%" viewBox="0 0 100 100" preserveAspectRatio="none">
@@ -52,14 +54,14 @@
 					</svg>
 				</div> -->
 				<!-- <div class="accueil_texture"> -->
-				<div id="présentation">
+				<!-- <div id="présentation">
 					<div class="titre">
 						<p>HEIDI GOUIDER</p>
 						<p>Développeuse web</p>
 					</div>
 				</div>
 				<div id="canvas"></div>
-
+ -->
 				<!-- animation -->
 				<!-- <canvas id="zone" width="600" height="600">zone animation</canvas> -->
 				<div class="animation">
@@ -105,26 +107,22 @@
 					</div>
 				</div>
 			</div>
-	</header>
+	<!-- </header> -->
 
 	<main>grille</main>
 
 
-	<footer class="footer">
-		<div class="footer_lien">
-			<nav class="liens">
-				<a href="#">Simplon</a>
-				<a href="#">Github</a>
-				<a href="#">Linkedin</a>
-			</nav>
-			<a href="#" class="bouton">haut de page</a>
-		</div>
-	</footer>
 	<!-- <script src="assets\js\main.js"></script> -->
 	<!-- ici svg est null et il n'y a aucune animation -->
 	<!-- <script src="assets\js\main1.js"></script> -->
 	<!-- <script src="assets\js\main2.js"></script> !!le stop animation n'est pas defini-->
 	<!-- <script src="assets\js\main3.js"></script> pas de script d'animation ici -->
+	<?php
+    include('partials/footer.php');
+    ?>
+
+    <!-- <script type="module" src="../dist/assets/index.js"></script> -->
+	<script type="module" src="../portofolio/commun/index.js"></script>
 
 
 </body>
