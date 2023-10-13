@@ -13,7 +13,7 @@ export default defineConfig({
       output: {
         dir: "public",
         entryFileNames: `[name].js`,
-//         chunkFileNames: `assets/[name].js`,
+        chunkFileNames: `[name].js`,
         assetFileNames: `[name].[ext]`
       },
       // external: ["bootstrap/dist/css/bootstrap.css"],

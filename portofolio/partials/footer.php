@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title><?= $title ?></title>
     <meta name="description" content="">
-    <link rel="stylesheet" href="../dist/assets/index.css">
+    <link rel="stylesheet" href="commun/index.css">
 </head>
 
 <body>
