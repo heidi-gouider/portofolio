@@ -1,0 +1,14 @@
+ANIMATION PLUIE
+
+- une image goutte d'eau
+	avec cette image je veux :
+
+ 		1/créer une animation pluie :
+		2/faire exploser l'image en plusieurs parties :
+
+		.object image
+			attributs(propriétés) : 
+				taille, position...
+			méthodes (fonction) :
+				1/deplacement(fonction)
+				2/explosion 

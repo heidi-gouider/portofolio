@@ -6,7 +6,7 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Portfolio</title>
-	<link rel="stylesheet" href="style.css">
+	<!-- <link rel="stylesheet" href="style.css"> -->
 </head>
 
 
@@ -67,16 +67,22 @@
 
 		<!-- animation -->
 		<!-- <canvas id="zone" width="600" height="600">zone animation</canvas> -->
+		<div class="container">
+			<!-- séparer l'image en plusieurs parties -->
+			<!-- <div class="image-part" style="background-image: url('votre-image.jpg');"></div> -->
+			<!-- Répétez cette structure pour chaque morceau d'image -->
+		</div>
+
 		<div class="animation">
 			<!-- je crée pls span pour séparer l'image en pls partie (je les crérais dans le fichier js par la suite) -->
 			<div class="pluie">
 				<div id="drop">
+					<!-- <span></span>
 					<span></span>
 					<span></span>
 					<span></span>
 					<span></span>
-					<span></span>
-					<span></span>
+					<span></span> -->
 				</div>
 				<div class="content"></div>
 
